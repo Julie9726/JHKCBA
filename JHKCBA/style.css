@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: tomato;
+    text-align: left;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+header a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+form label{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+form input{
+    display: table-cell;
+    margin: 5px;
+}
+
+form select{
+    display: table-cell;
+    margin: 5px;
+}
+
+form textarea{
+    display: table-cell;
+    margin: 5px;
+}
+
+form p{
+    display: table-row;
+}
+
+form{
+    display: table;
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+.navbar{
+    display: flex;
+    gap: 15px;
+}
+
+div .event{
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
